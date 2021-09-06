@@ -21,7 +21,7 @@ The authors of the above paper classified individual CT images into three types-
 
 Some sample images are shown in below figure 2.1 with their labels.
 
-![image](https://user-images.githubusercontent.com/46420929/132246550-8bf272f4-02ab-4cdd-a186-0fe1840ebd74.png)
+![image](https://user-images.githubusercontent.com/46420929/132247442-597e9575-7d81-4154-9566-11047e0947b8.png)
 
 ## 3.Network Architecture (I/O Dimension)
 
