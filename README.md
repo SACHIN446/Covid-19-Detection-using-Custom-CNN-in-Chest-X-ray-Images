@@ -35,11 +35,11 @@ Final Dense Layer with three Neuron gives the class to which the particular X-Ra
 
 Below figure shows the graph of epoch versus accuracy during training, the Training accuracy value start from approx. 0.4 and slightly converging toward value 1.0 i.e 100% accuracy.
 
-![image](https://user-images.githubusercontent.com/46420929/132246757-c9eaa2ad-6ca4-433b-ab02-2a50fd75598a.png)
+![image](https://user-images.githubusercontent.com/46420929/132247678-51f040ba-add9-41b3-82c4-711b3d74ab9e.png)
 
 Below figure shows the decrease in Training and Validation loss value with increase of number of epochs. Loss value is approaching downward. With increased in epoch, both Training and Validation loss can be minimized to very lower extent.
 
-![image](https://user-images.githubusercontent.com/46420929/132246841-419902e1-afa7-4ff0-ae59-cc99dab7c100.png)
+![image](https://user-images.githubusercontent.com/46420929/132247627-6db03153-fd75-4994-8e98-52fb63f2aa54.png)
 
 Finally Training Accuracy, Validation Accuracy, Training loss and Validation loss are plotted together in Below figure.
 
