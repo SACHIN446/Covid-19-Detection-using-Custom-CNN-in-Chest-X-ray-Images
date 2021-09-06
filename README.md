@@ -8,7 +8,7 @@ In Simple term NiCT, pCT and nCT represents three classes as non-informative sam
 Over normal training with epoch value equals to 20 model reached at accuracy of 96.83% and when tested on Testing Data accuracy is 98.91% and loss of model is reduced to nearly 4% i.e from 1 to 4.28. Good choice of Activation Function, Loss Function, Optimizers affect the performance of the Neural Network to a great extent. Normally for multiclass classification sigmoid works best but more ever, it also depend on dataset. Using appropriate Loss Function helps to reduce the loss computed by Neural Network at faster rate and hence increases the accuracy in less Epoch value. Since the Accuracy of our Model is very Good i.e 96% and even on random training for just 20 epochs, the accuracy goes up between 97% to 99%, it means the parameter that we have selected are perfect for our Model. Anyone who is unable to decide the number of neuron to use in Model, they can take help from Hyper-Parameter Tuning technique.
 
 All the results were obtained on 64 bit System with 8GB RAM, Core i5 7th Generation Intel Processor, Clock Speed of 2.5 - 2.71 GHz having Nvidia GeForce 920MX GPU.
-##2.ABOUT THE DATASET:
+## 2.ABOUT THE DATASET:
 Dataset contains X-Ray image of Lung Parenchyma divided into three class NiCT, nCT, pCT. Figure 1.1 shows the number of samples, classes available in Dataset. It has total size of 4.0 GB.
 
 
