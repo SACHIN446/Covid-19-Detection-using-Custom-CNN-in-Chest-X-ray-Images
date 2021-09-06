@@ -10,5 +10,15 @@ Over normal training with epoch value equals to 20 model reached at accuracy of 
 All the results were obtained on 64 bit System with 8GB RAM, Core i5 7th Generation Intel Processor, Clock Speed of 2.5 - 2.71 GHz having Nvidia GeForce 920MX GPU.
 ## 2.ABOUT THE DATASET:
 Dataset contains X-Ray image of Lung Parenchyma divided into three class NiCT, nCT, pCT. Figure 1.1 shows the number of samples, classes available in Dataset. It has total size of 4.0 GB.
+![image](https://user-images.githubusercontent.com/46420929/132246405-75ee05d5-3e7c-45be-8526-170cf45ee1af.png)
+
+Data were collected from 2 hospitals, Union Hospital (HUST-UH) and Liyuan Hospital (HUST-LH) which is describes in detail in the paper iCTCF: An integrative resource of chest computed tomography images and clinical features of patients with covid-19 pneumonia[3]. 
+
+The authors of the above paper classified individual CT images into three types- 
+(I) 5705 non-informative CT (NiCT) images where lung parenchyma was not captured for any judgment. 
+(ii) 4001 positive CT (pCT) images where imaging features associated with COVID-19 pneumonia could be unambiguously discerned, and 
+(iii) 9979 negative CT (nCT) images where imaging features in both lungs were irrelevant to COVID-19 pneumonia.
+
+
 
 
