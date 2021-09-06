@@ -1,6 +1,5 @@
 # Covid-19 Detection in Chest X-Ray Images using Deep Neural Network
 ## 1. INTRODUCTION
-
 This is a Deep Neural Network Model designed using CNN, MaxPooling, Dense, Flatten and other layers. It classifies the X-Ray images of lung parenchyma into three classes namely NiCT, pCT and nCT. pCT means Positive CT Scan images and it refers to image of Covid19 patient, nCT means Negative CT Scan images i.e Normal Person and NiCT means Non-informative CT Scan images i.e no decision can be made for this kind of image because of very less informative features present in image.
 
 In Simple term NiCT, pCT and nCT represents three classes as non-informative sample, Positive case and negative case for covid19. The Model we build extract the features from X-Ray image and uses final layer as Dense with three Neuron to predict the target class out of three (NiCT, nCT, pCT) discussed above.
@@ -35,6 +34,7 @@ Analyzing the Input and Output Dimension to each layer:
 Final Dense Layer with three Neuron gives the class to which the particular X-Ray image belongs, and using activation function as Softmax which give the probability distribution for all target class and the class with maximum probability will be considered as output.
 
 Below figure shows the graph of epoch versus accuracy during training, the Training accuracy value start from approx. 0.4 and slightly converging toward value 1.0 i.e 100% accuracy.
+
 ![image](https://user-images.githubusercontent.com/46420929/132246757-c9eaa2ad-6ca4-433b-ab02-2a50fd75598a.png)
 
 Below figure shows the decrease in Training and Validation loss value with increase of number of epochs. Loss value is approaching downward. With increased in epoch, both Training and Validation loss can be minimized to very lower extent.
